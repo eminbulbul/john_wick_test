@@ -1,0 +1,43 @@
+.allcont{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-top: 20px;
+ 
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+}
+
+body::before{
+    content: "";
+    background-image: url('./images/johnwick_background.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.30;
+
+}
+
+#logo{
+    width: 300px;
+   
+}
+
+.jw{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: crimson;
+    
+}
+.we{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: crimson;
+}
+
