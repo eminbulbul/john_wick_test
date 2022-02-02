@@ -10,15 +10,8 @@
  
 }
 
-body::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.3;
-   }
+
+
    body {
     background-image: url("./images/johnwick_background.jpg");
     background-repeat: repeat;

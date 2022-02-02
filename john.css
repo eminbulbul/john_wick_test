@@ -1,0 +1,50 @@
+.container{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-top: 1rem;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+ 
+}
+img{
+    height: 20rem;
+    margin: auto;
+}
+body {
+    background-image: url("./images/johnwick_background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* aşağı kadar dizmek için ne yapmam lazım ? */
+
+#q2,
+#q1,
+#q3,
+#q4,
+#q5,
+#q6,
+#q7,
+#q8,
+#q9{
+    float: left;
+    
+}
+
+
+
+
+.jw{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: crimson;
+    
+}
+.we{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: crimson;
+}
+
